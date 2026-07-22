@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        
+
+    <title>Smart Grocery Checklist</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4CAF50">
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <h1>🛒 Smart Grocery Checklist</h1>
+
+        <p>Never Forget Your Grocery Items</p>
+
+    </header>
+
+
+    <main class="container">
+
+     
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Search Category...">
+
+        </div>
+
+
+        <!-- Categories -->
+
+        <section id="category-section">
+
+            <h2>Categories</h2>
+
+            <div id="category-list" class="grid">
+
+            </div>
+
+        </section>
+
+
+
+       
+
+        <section
+            id="item-section"
+            class="hide">
+
+            <button
+                id="backBtn">
+
+                ← Back
+
+            </button>
+
+            <h2
+                id="categoryTitle">
+
+                Grocery
+
+            </h2>
+
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="itemSearch"
+                    placeholder="Search Grocery Item">
+
+            </div>
+
+
+            <div
+                id="item-list"
+                class="grid">
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <h2>
+
+                🛒 Shopping List
+
+            </h2>
+
+            <div id="shopping-list">
+
+                <p class="empty">
+
+                    No Items Selected
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <h2>
+
+                Progress
+
+            </h2>
+
+            <div class="progress">
+
+                <div
+                    id="progressBar">
+
+                </div>
+
+            </div>
+
+            <p
+                id="progressText">
+
+                0 / 0 Purchased
+
+            </p>
+
+        </section>
+
+
+
+
+        <section>
+
+            <h2>
+
+                ✅ Completed
+
+            </h2>
+
+            <div
+                id="completed-list">
+
+                <p class="empty">
+
+                    Nothing Completed
+
+                </p>
+
+            </div>
+
+        </section>
+        <div class="buttons">
+           
+            <button
+                id="clearAll">
+
+                Clear All
+
+            </button>
+
+        </div>
+
+    </main>
+
+<footer>
+
+    <p>
+        © 2026 Smart Grocery Checklist | Developed by Bethini Jyothibasu
+    </p>
+
+</footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
